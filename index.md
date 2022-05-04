@@ -125,7 +125,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="index.html" class="nav-link active">
+            <a href="index.md" class="nav-link active">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Calculadora
@@ -275,7 +275,7 @@ $(function () {
 </script>
 <!-- Scripts Propios-->
 
-<script src="plantilla/jspropios/calculadora-basica.js"></script>
+<script src="Plantilla/jspropios/calculadora-basica.js"></script>
 
 </body>
 </html>
