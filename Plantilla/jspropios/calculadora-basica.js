@@ -25,4 +25,4 @@ function Division(){
     var N2 = document.getElementById("numero_2").value;
     let divi = N1 / N2;
     alert("La Division es: " + divi);
-}
+} 
