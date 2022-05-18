@@ -1,5 +1,5 @@
-//Create, Read, Update y Delete para las categorias o rubros
-//sistete
+//CRUD para las categorias o rubros
+//SisTeTe
 
 //Crear un nuevo registro en la base de datos rubro o categoria
 function actionCreate() {
@@ -11,9 +11,8 @@ function actionCreate() {
     if( tieneSubcategorias)
       Descripcion = "Si tiene subtemas";
          
-    //Vamos a comunicarnos con el PHP
-    //$ = JQuery
-    //Metodo por default de enviar parametros es GET
+    //Vamos a comuncarnos con el PHP
+    //$ = JQuery, $ es la libreria, y JQuery es el metodo
     $.ajax({ 
         method:"POST",
         url: "plantilla/phppropios/crud-categorias.php",
@@ -39,17 +38,17 @@ function actionCreate() {
     });
 }
 
-//Para leer todos los registros de la tabla rubro o categoria
+//Leer todos los registros que tenga la tabla
 function actionRead() {
-  //accion = read
+ 
 }
 
-//Actualizar un registro de la tabla rubro o categoria
+//Actualizar un registro de la tabla rubros o categorias
 function actionUpdate(){
-  //accion = update
+  
 }
 
-//Para eliminar un registro de la tabla rubro o categoria
+//Eliminar un registro de la tabla rubros o categorias
 function actionDelete() {
-  //accion = update    
+     
 }
